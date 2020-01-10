@@ -57,7 +57,7 @@
         android:hint="Enter Password"/>
 
     <RadioGroup
-        android:id="@+id/user"
+        android:id="@+id/userMode"
         android:gravity="center"
         android:orientation="horizontal"
         android:layout_margin="10dp"
