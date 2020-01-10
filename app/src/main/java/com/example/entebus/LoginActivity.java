@@ -10,9 +10,9 @@ import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText username, password;
+    EditText username, password;
     Button login, register;
-    String usrname, passwrd, user, pass;
+    String user, pass;
     Intent log;
 
     @Override
@@ -22,8 +22,12 @@ public class LoginActivity extends AppCompatActivity {
 
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
+
         login = findViewById(R.id.login);
         register = findViewById(R.id.register);
+
+        user = username.getText().toString();
+        pass = password.getText().toString();
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
