@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                nxt = new Intent(getApplicationContext(), PassengerActivity.class);
+                nxt = new Intent(getApplicationContext(), BusdriverActivity.class);
                 startActivity(nxt);
 
             }
