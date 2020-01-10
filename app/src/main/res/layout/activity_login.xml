@@ -4,13 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:layout_margin="25dp"
+    android:gravity="center_vertical"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/logo_picture"/>
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Welcome Back!"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Please SignIn to continue"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="OR"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="15dp"
+        android:padding="15dp"
+        android:text="REGISTER"/>
 
 </LinearLayout>
