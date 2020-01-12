@@ -67,7 +67,7 @@
         android:hint="Enter Email Address" />
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/passenger_submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
